@@ -1,0 +1,227 @@
+//META{"name":"BetterDarkMode","A darker dark mode":"DARKER!!!","author":"de_Chaplin","version":"1.0"}*//
+
+/******************************************** Server List ********************************************/
+
+:root {
+    --primaryColor: #242424;
+    --secondaryColor: #232323;
+    --thirdColor: #202020;
+}
+
+/*
+var(--primaryColor);
+var(--secondaryColor);
+var(--thirdColor);
+*/
+
+/*
+RGB
+
+.scrollerInner-2PPAp2 {
+    animation-name: iwonderwhatthisdoes;
+ animation-duration: 5s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: linear; 
+}
+
+@keyframes iwonderwhatthisdoes {
+ 0% {
+     background: #ee6055;
+ }
+ 25% {
+     background: #60d394;
+ }
+ 50% {
+     background: #aaf683;
+ }
+ 75% {
+     background: #ffd97d;
+ }
+ 100% {
+     background: #ff9b85;
+ }
+}*/
+
+/******************************************** Primary Colors ********************************************/
+
+/*Scroll bar background*/
+.scroller-kQBbkU {
+    background-color: var(--primaryColor);
+}
+
+/*Chat background*/
+.scrollerContent-2SW0kQ {
+    background-color: var(--primaryColor) !important;
+}
+
+.scrollerInner-2PPAp2 {
+    background-color: var(--primaryColor);
+}
+/*Bottom under messagebox background*/
+.form-3gdLxP {
+    background-color: var(--primaryColor) !important;
+}
+/*Folder background*/
+.expandedFolderBackground-1kSAf6 {
+    background-color: var(--primaryColor) !important;
+}
+/*Server divider colour*/
+.guildSeparator-a4uisj {
+    background-color: var(--primaryColor);
+}
+/*Friends list background*/
+.container-2cd8Mz {
+    background-color: var(--primaryColor) !important;
+}
+/*Active now background*/
+.itemCard-3Etziu {
+    background-color: var(--primaryColor);
+}
+/*Active now background in*/
+.section-3G9aLW {
+    background-color: var(--primaryColor);
+}
+/*Nitro background*/
+.scroller-29cQFV {
+    background-color: var(--primaryColor);
+}
+/*Mentions top background*/
+.header-145e10 {
+    background-color: var(--primaryColor) !important;
+}
+/*Mentions middle background*/
+.container-nwU-8G {
+    background-color: var(--primaryColor);
+}
+/*This section could be better background*/
+.card-YtRIQ2 {
+    background-color: var(--primaryColor);
+}
+
+/******************************************** Secondary Colors ********************************************/
+
+/*Member list background (Far back)*/
+.members-3WRCEx {
+    background-color: var(--secondaryColor) !important;
+}
+/*Member list background*/
+.content-2a4AW9 {
+    background-color: var(--secondaryColor) !important;
+}
+/*Folder background*/
+.expandedFolderIconWrapper-3RwQpD {
+    background-color: var(--secondaryColor);
+}
+/*Active now background*/
+.scroller-hE2gWq {
+    background-color:  var(--secondaryColor);
+}
+/*Friends button backgroud*/
+.interactive-1vLZ_I {
+    background-color: var(--secondaryColor);
+}
+/*Text channel background*/
+.scroller-1ox3I2 {
+    background-color: var(--secondaryColor);
+}
+
+/******************************************** Third Colors ********************************************/
+
+/*Backgound colour*/
+.wrapper-1_HaEi [class^="scroller-"] {
+	background-color: var(--thirdColor);
+}
+/*Top bar background*/
+.base-2jDfDU [class^="title-31SJ6t"]{
+    background-color: var(--thirdColor) !important;
+} 
+/*Messagebox background*/
+.scrollableContainer-15eg7h {
+    background-color: var(--thirdColor);
+}
+/*Profile, mute, deafen etc background*/
+.container-YkUktl {
+    background-color: var(--thirdColor);
+}
+/*Connection information background*/
+.container-1zzFcN {
+    background-color: var(--thirdColor);
+}
+/*Sharing screen info background*/
+.panel-2ZFCRb {
+    background-color: var(--thirdColor);
+}
+/*Server name background*/
+.header-3OsQeK {
+    background-color: var(--thirdColor);
+}
+/*Circle icon background (Under servers)*/
+.circleIconButton-1VxDrg {
+    background-color: var(--thirdColor);
+}
+/*Friends list button*/
+.childWrapper-1j_1ub {
+    background-color: var(--thirdColor);
+}
+/*On-click profile backgound (middle)*/
+.body-2wLx-E {
+    background-color: var(--thirdColor);
+}
+/*On-click profile backgound (top)*/
+.headerTop-3GPUSF {
+    background-color: var(--thirdColor);
+}
+/*On-click profile backgound (bottom)*/
+.footer-3naVBw {
+    background-color: var(--thirdColor);
+}
+/*On-click profile text backgound (Text)*/
+.bodyInnerWrapper-2bQs1k {
+    background-color: var(--thirdColor);
+}
+/*Search bar background*/
+.searchBar-3TnChZ {
+    background-color: var(--thirdColor);
+}
+/*Video/screen buttons background*/
+.button-1EGGcP {
+    background-color: var(--thirdColor) !important;
+}
+/*On-click self profile background*/
+.scroller-1bVxF5 {
+    background-color: var(--thirdColor);
+}
+/*Friends list top-bar*/
+.container-ZMc96U {
+    background-color: var(--thirdColor) !important;
+}
+/*Select friends background*/
+.flex-2S1XBF {
+    background-color: var(--thirdColor) !important;
+}
+/*Pinned messages background*/
+.messagesPopout-eVzQcI {
+    background-color: var(--thirdColor) !important;
+}
+.header-1w9Q93 {
+    background-color: var(--thirdColor);
+}
+/*Pinned messages message background*/
+.messageGroupCozy-3v_RqN {
+    background-color: var(--thirdColor) !important;
+}
+/*Hover background*/
+.wrapper-2vIMkT {
+    background-color: var(--thirdColor)
+}
+/*Top bar*/
+.typeWindows-2-g3UY {
+    background-color: var(--thirdColor);
+}
+
+
+/*Hovering stream controls*/
+.flex-2S1XBF {
+    background-color: transparent;
+}
